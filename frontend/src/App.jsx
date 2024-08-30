@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import './App.css';
 
-const socket = io('http://localhost:3000');
+const socket = io();
 
 function App() {
   const [checkboxes, setCheckboxes] = useState(Array(10).fill(false));
