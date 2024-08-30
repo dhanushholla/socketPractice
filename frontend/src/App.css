@@ -1,0 +1,74 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+.Wrapper{
+  border:2px dashed cyan;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.grid input:checked::after{
+  border: 2px solid green;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+/* src/App.css
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.Wrapper{
+  border:2px dashed cyan;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.grid input {
+  width: 30px; 
+  height: 30px;
+  cursor: pointer;
+}
+
+input:checked::before {
+  content: "✔️";
+  color: green;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+h3 {
+  margin-top: 20px;
+} */
